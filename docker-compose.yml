@@ -27,7 +27,7 @@ services:
             - PGUSER=postgres
             - PGHOST=complexPostgres
             - PGDATABASE=postgres
-            - PGPASSWORD=POSTGRES_PASSWORD
+            - PGPASSWORD=postgres 
             - PGPORT=5432  
     
     client:
